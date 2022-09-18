@@ -54,4 +54,11 @@
     <Reference Include="System.Speech" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Assimil\EnglishFrench.Advanced\content\images\" />
+    <Folder Include="Assimil\FrenchGerman.Advanced\content\images\" />
+    <Folder Include="Assimil\RussianFrench\content\images\" />
+    <Folder Include="Assimil\RussianGerman\content\images\" />
+  </ItemGroup>
+
 </Project>

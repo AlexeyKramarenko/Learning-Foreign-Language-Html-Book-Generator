@@ -1,4 +1,5 @@
 ﻿using AssimilGenerator.Utils;
+using System.Collections.Generic;
 
 namespace AssimilGenerator
 {
@@ -6,7 +7,15 @@ namespace AssimilGenerator
     {
         static void Main(string[] args)
         {
-            AssimilBook.Generate("RussianEnglish");
+            new List<string>
+            {
+                "EnglishFrench.Advanced",
+                "FrenchGerman.Advanced",
+                "RussianEnglish",
+                "RussianFrench",
+                "RussianGerman"
+            }
+            .ForEach(name => AssimilBook.Generate(name));
         }
     }
 }

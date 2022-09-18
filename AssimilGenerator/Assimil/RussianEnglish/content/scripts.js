@@ -41,7 +41,6 @@ function speech(event) {
 
         var utterance = new SpeechSynthesisUtterance(res);
         utterance.lang = "en-US";
-        //utterance.lang = "ru-RU";
         window.speechSynthesis.speak(utterance);
     }
 }
